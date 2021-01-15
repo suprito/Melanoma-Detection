@@ -107,7 +107,6 @@ hist=model.fit_generator(generator=train_generator,
 
 #%%
 
-
 model.save('cancer1.h5')
 	                       
 #%%	  
@@ -129,8 +128,3 @@ plt.title('Training and validation loss')
 plt.legend()
 plt.show()
 #%%
-
-
-
-#%%
-
